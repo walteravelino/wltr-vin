@@ -1,4 +1,4 @@
-from vininfo import Vin
+from wltr_vin import Vin
 
 
 def test_nissan():

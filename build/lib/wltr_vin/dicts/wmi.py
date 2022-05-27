@@ -2,7 +2,7 @@ from ..brands import Lada, Nissan, Opel, Renault
 
 # NOTE:
 # if you want to extend this mapping with new WMIs, please use
-# vininfo.utils.merge_wmi() function and replace the entire WMI with
+# wltr_vin.utils.merge_wmi() function and replace the entire WMI with
 # the result of this function. This comment must stay intact.
 WMI = {
     '000': 'Maserati',

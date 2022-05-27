@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: wltr-vin
-Version: 1.0.0
+Version: 1.1.0
 Summary: Extracts useful information from Vehicle Identification Number (VIN)
 Home-page: https://github.com/walteravelino/wltr-vin
 Author: Walter José Avelino da Silva

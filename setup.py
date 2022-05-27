@@ -18,7 +18,7 @@ def read_file(fpath):
 def get_version():
     """Returns version number, without module import (which can lead to ImportError
     if some dependencies are unavailable before install."""
-    contents = read_file(os.path.join('vininfo', '__init__.py'))
+    contents = read_file(os.path.join('wltr_vin', '__init__.py'))
     version = re.search('VERSION = \\(([^)]+)\\)', contents)
     version = version.group(1).replace(', ', '.').strip()
     return version
@@ -50,7 +50,7 @@ setup(
     },
 
     entry_points={
-        'console_scripts': ['vininfo = vininfo.cli:main'],
+        'console_scripts': ['wltr_vin = wltr_vin.cli:main'],
     },
 
     test_suite='tests',

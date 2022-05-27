@@ -1,2 +1,2 @@
 [console_scripts]
-vininfo = vininfo.cli:main
+wltr_vin = wltr_vin.cli:main

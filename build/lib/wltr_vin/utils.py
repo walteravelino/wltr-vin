@@ -2,7 +2,7 @@ from typing import Tuple
 
 
 def merge_wmi(new_wmis: dict) -> Tuple[set, str]:
-    """Helper. Used to update vininfo.dicts.wmi.WMI dictionary
+    """Helper. Used to update wltr_vin.dicts.wmi.WMI dictionary
     with entries from another dictionary.
 
     Existing keys are skipped, new keys are added, result is sorted.

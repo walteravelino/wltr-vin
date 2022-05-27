@@ -1,6 +1,6 @@
 import pytest
 
-from vininfo import Vin, ValidationError
+from wltr_vin import Vin, ValidationError
 
 
 def test_validation():
@@ -56,7 +56,7 @@ def test_unsupported_brand():
 
 
 def test_merge_wmi():
-    from vininfo.utils import merge_wmi
+    from wltr_vin.utils import merge_wmi
 
     missing, lines = merge_wmi({'1DTEST': 'Some', '1GTEST': 'Other'})
     assert missing == {'1DTEST', '1GTEST'}
